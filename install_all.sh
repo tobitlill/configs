@@ -2,6 +2,13 @@
 
 cd /tmp
 
+if [ ! -f /usr/bin/zsh ]; then
+	echo "install zsh"
+	sudo apt install zsh
+else
+	echo "zsh is already installed"
+fi
+
 # clone my configs
 if [ ! -d /tmp/configs ]; then
 	echo "Download own configs"
