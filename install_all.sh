@@ -66,3 +66,5 @@ fi
 # load the conigs
 source ~/.zshrc
 /usr/bin/zsh
+
+echo "You may want to install fonts from here: https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k"
