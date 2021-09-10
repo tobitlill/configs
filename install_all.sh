@@ -39,6 +39,14 @@ else
 	echo "already downloaded autosuggestions plugin"
 fi
 
+# install zsh-syntax-highlighting
+if [ ! -d ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting ]; then
+	echo "Download zsh-syntax-highlighting plugin"
+	git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+else
+	echo "already downloaded zsh-syntax-highlighting plugin"
+fi
+
 # install powerlevel10k theme
 if [ ! -d ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k ]; then
 	echo "Downloading powerlevel10k theme"
