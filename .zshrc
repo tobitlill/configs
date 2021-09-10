@@ -9,7 +9,7 @@ fi
 export PATH=$HOME/bin:/usr/local/bin:/usr/bin:$PATH:/usr/local/texlive/2020/bin/x86_64-linux
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/tib0t/.oh-my-zsh"
+export ZSH="/home/$USER/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
