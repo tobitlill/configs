@@ -50,7 +50,7 @@ fi
 # change to zsh
 if [ ! $SHELL == "/usr/bin/zsh" ]; then
 	echo "setting zsh as default shell"
-	chsh -s /usr/bin/zsh
+	chsh -s $(which zsh)
 else
 	echo "zsh is already the default shell"
 fi
