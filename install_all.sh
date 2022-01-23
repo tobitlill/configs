@@ -63,8 +63,8 @@ else
 	echo "zsh is already the default shell"
 fi
 
-# load the conigs
-source ~/.zshrc
-/usr/bin/zsh
-
 echo "You may want to install fonts from here: https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k"
+
+echo "Setting up fstab for shared folder"
+sudo su -c "echo '# shared folder' >> /etc/fstab"
+sudo su -c "echo '.host:/share    /mnt/share  fuse.vmhgfs-fuse    defaults,allow_other,uid=1000   0   0' >> /etc/fstab"
