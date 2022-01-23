@@ -30,6 +30,7 @@ fi
 cp /tmp/configs/.zshrc ~
 cp /tmp/configs/.p10k.zsh ~
 cp -r /tmp/configs/i3 ~/.config
+cp /tmp/configs/.vimrc ~
 
 # install zsh-autosuggestions
 if [ ! -d ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions ]; then
