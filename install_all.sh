@@ -1,5 +1,8 @@
 #!/usr/bin/bash
 
+# get necessary packages
+sudo apt install curl git i3 i3-wm i3lock-fancy i3blocks i3status
+
 cd /tmp
 
 if [ ! -f /usr/bin/zsh ]; then
