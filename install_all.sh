@@ -69,3 +69,5 @@ echo "You may want to install fonts from here: https://github.com/romkatv/powerl
 echo "Setting up fstab for shared folder"
 sudo su -c "echo '# shared folder' >> /etc/fstab"
 sudo su -c "echo '.host:/share    /mnt/share  fuse.vmhgfs-fuse    defaults,allow_other,uid=1000   0   0' >> /etc/fstab"
+
+echo "install terminator theme from here : https://github.com/EliverLara/terminator-themes"
